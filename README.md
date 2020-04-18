@@ -1,6 +1,21 @@
+## Workshop: Iniciando em Flutter | Recode Jr | Computação - UFRB
 # app_live
 
-A new Flutter project.
+Este projeto foi criado em live no YouTube como demonstração prática no WrokShop Iniciando no Flutter, um projeto realizado em parceria com o curso de Engenharia de Computação da UFRB e Recode Jr.
+
+- Link da primeira parte:https://www.youtube.com/watch?v=J21nfqh5DE8
+
+
+ na primeira parte foi realizado
+  -Breve apresenteção teórica ao Flutter
+  -Tela Login
+  -Tela Home
+  -Tela Inicio
+
+Aguarde a proxima parte dia 25/04 ás 09:00 da manhã:
+ Link: https://www.youtube.com/watch?v=GmqzBBbarJk
+ 
+ # dentro da pasta Slides nesse repositório contem os slides desse WorkShop em formato PDF
 
 ## Getting Started
 
