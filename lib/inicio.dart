@@ -10,8 +10,10 @@ class Inicio extends StatefulWidget {
 class _InicioState extends State<Inicio> {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: SingleChildScrollView(
+    return SingleChildScrollView(
+      child: Container(
+        padding: EdgeInsets.all(16),
+        child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -27,6 +29,7 @@ class _InicioState extends State<Inicio> {
              ),
              Text("Login Feito com Sucesso!")
           ],
+        )
         )
       ),
     );

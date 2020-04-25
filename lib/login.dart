@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'home.dart';
 
 class Login extends StatefulWidget {
+  var cameras;
+  Login(this.cameras);
   @override
   _LoginState createState() => _LoginState();
 }
@@ -69,7 +71,7 @@ class _LoginState extends State<Login> {
                   print("pressionado");
                   if(_userController.text == 'teste' && _passwordController.text == '123'){
                       Navigator.push(context, MaterialPageRoute(
-                        builder: (context) => Home(nome: _userController.text)
+                        builder: (context) => Home(nome: _userController.text, cameras: widget.cameras,)
                         ));
 
                         print("Sucess");

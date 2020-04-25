@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
-
+import 'package:camera/camera.dart';
 import 'login.dart';
 
-void main() {
+List<CameraDescription> cameras;
+
+Future<Null> main() async {
+
+  WidgetsFlutterBinding.ensureInitialized();
+  cameras = await availableCameras();
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Login(),
+    home: Login(cameras),
   ));
 }
