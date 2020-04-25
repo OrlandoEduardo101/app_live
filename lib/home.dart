@@ -6,7 +6,8 @@ import 'inicio.dart';
 
 class Home extends StatefulWidget {
   String nome;
-  Home({this.nome});
+  var cameras;
+  Home({this.nome, this.cameras});
   @override
   _HomeState createState() => _HomeState();
 }
@@ -21,7 +22,7 @@ class _HomeState extends State<Home> {
   List<Widget> telas = [
     Inicio("${widget.nome}"),
     Perfil(),
-    Camera()
+    Camera(widget.cameras)
   ];
     return Scaffold(
       appBar:AppBar(
@@ -29,7 +30,7 @@ class _HomeState extends State<Home> {
         backgroundColor: Colors.greenAccent,
       ),
       body:Container(
-        padding: EdgeInsets.all(16),
+        //padding: EdgeInsets.all(8),
         child: telas[_indice],
       ),
       bottomNavigationBar: BottomNavigationBar(
