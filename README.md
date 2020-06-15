@@ -18,8 +18,9 @@ Aguarde a proxima parte dia 25/04 ás 09:00 da manhã:
  # dentro da pasta Slides nesse repositório contem os slides desse WorkShop em formato PDF
  
  #ScreenShot
-![screenshot](https://github.com/OrlandoEduardo101/app_live/blob/master/Slides/screenshot-2020-06-15_19.25.11.522.png)
-
+ 
+![screenshot](https://github.com/OrlandoEduardo101/app_live/blob/master/Slides/screenshot-2020-06-15_19.25.11.522.png?raw=true)
+![screenshot](https://github.com/OrlandoEduardo101/app_live/blob/master/Slides/screenshot-2020-06-15_19.26.25.652.png?raw=true)
 
 ## Getting Started
 
