@@ -6,14 +6,18 @@ Este projeto foi criado em live no YouTube como demonstração prática no WrokS
 - Link da primeira parte:https://www.youtube.com/watch?v=J21nfqh5DE8
 
 
- na primeira parte foi realizado
+ na primeira parte foi realizado:
   -Breve apresenteção teórica ao Flutter
   -Tela Login
   -Tela Home
   -Tela Inicio
+ 
+ -Link segunda parte: Link: https://www.youtube.com/watch?v=GmqzBBbarJk
 
-Aguarde a proxima parte dia 25/04 ás 09:00 da manhã:
- Link: https://www.youtube.com/watch?v=GmqzBBbarJk
+Segunda Parte:
+ - Consumo de API do github na tela perfil utilizando requisição HTTP
+ - acessando a camera utilizando pluglins do flutter
+ 
  
  # dentro da pasta Slides nesse repositório contem os slides desse WorkShop em formato PDF
  
